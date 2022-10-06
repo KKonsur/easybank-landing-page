@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <Header>
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" />
         <Navigation />
       </Header>
     </div>
