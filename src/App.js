@@ -2,6 +2,7 @@ import './App.scss'
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import logo from './images/logo.svg'
+import Button from './UI/Button/Button';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header>
         <img src={logo} alt="logo" />
         <Navigation />
+        <Button name={'Request Invite'}/>
       </Header>
     </div>
   );
