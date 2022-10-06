@@ -4,3 +4,6 @@ $bright-cyan: hsl(192, 70%, 51%);
 $grayish-blue: hsl(233, 8%, 62%);
 $light-grayish-blue: hsl(220, 16%, 96%);
 $very-ligh-gray: hsl(0, 0%, 98%);
+$gradient: linear-gradient(90deg, $lime-green 0%, $bright-cyan 100%);
+
+$sides-padding: 0 clamp(1rem, 8vw, 10rem);

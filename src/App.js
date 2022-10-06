@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <Header>
-        <img src={logo} alt="logo" />
+        <img className='header__logo' src={logo} alt="logo" />
         <Navigation />
         <Button name={'Request Invite'}/>
       </Header>

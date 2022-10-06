@@ -4,7 +4,7 @@ const NavItem = ({ index, handleSelectLink, selectedLink, navLink }) => {
    const handleClick = () => {
       handleSelectLink(index)
    }
-   const classes = selectedLink === index ? 'navigation__nav-link navigation__nav-link--active' : 'navigation__nav-link'
+   const classes = selectedLink === index ? 'nav__link nav__link--active' : 'nav__link'
 
    return (
       <li onClick={handleClick} className={classes}>
