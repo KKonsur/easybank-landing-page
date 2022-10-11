@@ -5,6 +5,7 @@ import logo from './images/logo.svg'
 import imageMockups from './images/image-mockups.png'
 import Button from './UI/Button/Button';
 import Intro from './components/Main/Intro';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <img className="intro__mockups" src={imageMockups} alt="" />
         </div>
       </Intro>
+      <About />
     </div>
   );
 }

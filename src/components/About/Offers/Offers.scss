@@ -1,0 +1,25 @@
+@import '../../../variables.scss';
+
+.offers {
+   display: flex;
+   justify-content: space-between;
+
+   &__offer {
+      width: 17vw;
+   }
+
+   &__img {
+      margin-bottom: 2rem;
+   }
+
+   &__name {
+      font-weight: normal;
+      font-size: 1.7rem;
+      margin-bottom: 2rem;
+   }
+
+   &__description {
+      line-height: 1.7rem;
+      color: $grayish-blue;
+   }
+}

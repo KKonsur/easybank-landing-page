@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+
+.about {
+   padding: $sides-padding;
+   padding-top: 7rem;
+   padding-bottom: 7rem ;
+   background-color: $light-grayish-blue;
+   display: flex;
+   flex-direction: column;
+   
+   &__heading {
+      color: $dark-blue;
+      font-weight: normal;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+   }
+
+   &__description {
+      color: $grayish-blue;
+      width: 40vw;
+      line-height: 2rem;
+      font-size: 1.2rem;
+      margin-bottom: 4rem;
+   }
+}
