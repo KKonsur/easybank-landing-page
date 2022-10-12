@@ -13,5 +13,10 @@
    &__logo {
       width: clamp(150px, 10vw, 200px);
       cursor: pointer;
+      transition: 0.2s;
+
+      &:hover {
+         transform: scale(1.05);
+      }
    }
 }

@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.article {
+   background: #fff;
+   width: clamp(250px, 25vw, 350px);
+   border-radius: 10px;
+   overflow: hidden;
+   transition: 0.2s;
+   cursor: pointer;
+
+   &__img {
+      display: block;
+      width: 100%;
+      height: clamp(200px, 15vw, 500px);
+   }
+
+   &__info {
+      padding: 1.5rem;
+   }
+
+   &__author {
+      font-weight: normal;
+      color: $grayish-blue;
+      margin-bottom: 1rem;
+      font-size: 0.8rem;
+   }
+
+   &__title {
+      font-weight: normal;
+      color: $dark-blue;
+      margin-bottom: 0.6rem;
+      line-height: 1.4rem;
+      transition: 0.2s;
+
+      &:hover {
+         color: #2ec597;
+      }
+   }
+
+   &__description {
+      color: $grayish-blue;
+      line-height: 1.2rem;
+   }
+
+   &:hover {
+      transform: scale(1.05);
+   }
+}

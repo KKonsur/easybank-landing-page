@@ -6,6 +6,7 @@ import imageMockups from './images/image-mockups.png'
 import Button from './UI/Button/Button';
 import Intro from './components/Main/Intro';
 import About from './components/About/About';
+import Articles from './components/Articles/Articles';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </div>
       </Intro>
       <About />
+      <Articles/>
     </div>
   );
 }
