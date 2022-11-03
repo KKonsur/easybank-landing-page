@@ -1,0 +1,89 @@
+@import '../../variables.scss';
+
+.footer {
+   background-color: $dark-blue;
+   padding: $sides-padding;
+   padding-top: 2.5rem;
+   padding-bottom: 2.5rem;
+
+   &__content {
+      min-height: 10vh;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__logo-nav-box {
+      display: flex;
+   }
+
+   &__logos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: inherit;
+      width: clamp(100px, 25vh, 200px);
+      margin-right: clamp(50px, 10vw, 200px);
+   }
+
+   &__logo {
+      width: 80%;
+      cursor: pointer;
+      transition: 0.2s;
+
+      &:hover {
+         transform: scale(1.05);
+      }
+   }
+
+   &__social-icons {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__social-icon {
+      cursor: pointer;
+      width: clamp(20px, 2vh, 60px);
+
+      &:hover {
+         filter: brightness(0) saturate(100%) invert(63%) sepia(60%) saturate(489%) hue-rotate(111deg) brightness(87%) contrast(87%);
+      }
+   }
+
+   &__nav {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      width: clamp(200px, 25vw, 350px);
+   }
+
+   &__nav-items {
+      display: flex;
+      flex-direction: column;
+      margin-right: 3rem;
+   }
+
+   &__nav-item {
+      margin: 10px 0;
+      list-style: none;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+         color: $sea-green;
+      }
+   }
+
+   &__btn-copyright-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      button {
+         margin-bottom: 2rem;
+      }
+   }
+
+   &__copyright {
+      color: $grayish-blue;
+   }
+}

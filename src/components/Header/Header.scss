@@ -19,4 +19,10 @@
          transform: scale(1.05);
       }
    }
+
+   button {
+      @media (max-width: 720px) {
+         display: none;
+      }
+   }
 }

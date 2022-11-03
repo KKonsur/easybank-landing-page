@@ -3,6 +3,10 @@
 .nav {
    margin: 0 1rem;
 
+   @media (max-width: 720px) {
+      display: none;
+   }
+
    &__list {
       display: flex;
       justify-content: space-between;
