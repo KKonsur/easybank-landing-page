@@ -18,9 +18,8 @@ function App() {
     setIsClicked(val)
   }
 
-  const classes = isClicked ? ' dim' : ''
   return (
-    <div className={`container ${classes}`}>
+    <div className='container'>
       <Header>
         <img className='header__logo' src={logo} alt="logo" />
         <Navigation />

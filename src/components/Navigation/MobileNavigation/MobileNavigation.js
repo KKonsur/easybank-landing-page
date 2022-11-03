@@ -5,7 +5,6 @@ const Navigation = () => {
    const navLinks = ['Home', 'About', 'Contact', 'Blog', 'Careers']
 
    return (
-      <div className="mobile-nav__container">
          <nav className='mobile-nav'>
             <ul className='mobile-nav__list'>
                {navLinks.map((link) =>
@@ -13,7 +12,6 @@ const Navigation = () => {
                )}
             </ul>
          </nav>
-      </div>
    )
 }
 
