@@ -4,7 +4,7 @@ import Navigation from './components/Navigation/Navigation';
 import logo from './images/logo-dark.svg'
 import imageMockups from './images/image-mockups.png'
 import Button from './UI/Button/Button';
-import Intro from './components/Main/Intro';
+import Intro from './components/Intro/Intro';
 import About from './components/About/About';
 import Articles from './components/Articles/Articles';
 import Footer from './components/Footer/Footer';

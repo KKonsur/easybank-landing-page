@@ -10,10 +10,19 @@
       min-height: 10vh;
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 720px) {
+         flex-direction: column;
+      }
    }
 
    &__logo-nav-box {
       display: flex;
+
+      @media (max-width: 720px) {
+         flex-direction: column;
+         align-items: center;
+      }
    }
 
    &__logos {
@@ -23,6 +32,13 @@
       min-height: inherit;
       width: clamp(100px, 25vh, 200px);
       margin-right: clamp(50px, 10vw, 200px);
+
+      @media (max-width: 720px) {
+         margin-right: 0;
+         align-items: center;
+         min-height: 8vh;
+         margin-bottom: 3rem;
+      }
    }
 
    &__logo {
@@ -38,6 +54,10 @@
    &__social-icons {
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 720px) {
+         width: 30vw;
+      }
    }
 
    &__social-icon {
@@ -54,12 +74,24 @@
       display: flex;
       justify-content: space-between;
       width: clamp(200px, 25vw, 350px);
+
+      @media (max-width: 720px) {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         width: 100%;
+         margin-bottom: 3rem;
+      }
    }
 
    &__nav-items {
       display: flex;
       flex-direction: column;
       margin-right: 3rem;
+
+      @media (max-width: 720px) {
+         margin-right: 0;
+      }
    }
 
    &__nav-item {
@@ -77,6 +109,10 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+
+      @media (max-width: 720px) {
+         align-items: center;
+      }
 
       button {
          margin-bottom: 2rem;
